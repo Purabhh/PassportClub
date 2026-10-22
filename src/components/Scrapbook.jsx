@@ -274,7 +274,7 @@ export default function Scrapbook({
             <div className="bs-stub-head">
               <div className="bs-stub-brand">
                 <div className="bs-stub-wordmark-row">
-                  <span className="bs-stub-wordmark">passportbros</span>
+                  <span className="bs-stub-wordmark">passport club</span>
                   <span className="bs-stub-chronicle">· the chronicle</span>
                 </div>
                 <div className="bs-stub-zone">passport · zone 1</div>

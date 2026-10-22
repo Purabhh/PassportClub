@@ -206,7 +206,7 @@ export default function JoinGroup() {
               {/* header */}
               <div className="ji-head">
                 <div className="ji-head-brand">
-                  <div className="ji-wordmark">passportbros</div>
+                  <div className="ji-wordmark">passport club</div>
                   <div className="ji-zone">boarding stub · zone 1</div>
                 </div>
                 <div className="ji-head-meta">

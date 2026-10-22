@@ -1,5 +1,5 @@
 /* Just the page resets. The deep theming lives inside Scrapbook.jsx, like in
-   PassportBro, so the design stays self-contained per component. */
+   Passport Club, so the design stays self-contained per component. */
 
 * { box-sizing: border-box; }
 html, body, #root { margin: 0; padding: 0; min-height: 100%; }

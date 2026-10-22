@@ -114,7 +114,7 @@ export default function GroupHome() {
   if (!data) return (
     <div className="boot">
       <div style={{fontSize:24}}>unfurling the chronicle…</div>
-      <small>loading r/passportbros</small>
+      <small>loading r/passport club</small>
     </div>
   );
 

@@ -1,6 +1,6 @@
-# r/PassportBros
+# Passport Club
 
-**Make a PassportBros album for you, your friends, and every adventure you
+**Make a Passport Club album for you, your friends, and every adventure you
 take around the world.** Pick a destination, drop in your photos and videos,
 and watch the chronicle fill up as everyone in the crew adds their own.
 
@@ -68,7 +68,7 @@ Neon Postgres (groups/members/uploads)   Cloudflare R2 (photos + videos)
 ```
 
 **Auth model.** Every group has a long random ID (`xY8nQ3kP42aBc7HmK5jL2`)
-that lives in the URL path: `passportbros.app/g/<id>`. Anyone with that URL
+that lives in the URL path: `passportclub.app/g/<id>`. Anyone with that URL
 can open the join page, pick a display name, and become a member. Each
 member gets a personal `member_token` stored in `localStorage`. it's
 their session. The URL plus your token = your access. No passwords.
@@ -95,7 +95,7 @@ uploads  (id, group_id, member_id, country_code, kind, r2_key,
 ## File layout
 
 ```
-PassportBros/
+PassportClub/
 ├── api/                          # Vercel serverless functions
 │   ├── _lib/                     # shared utilities (db, auth, r2, ids, json)
 │   ├── groups.js                 # POST create

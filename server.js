@@ -1,4 +1,4 @@
-// r/PassportBros server. Single Express app for both dev and prod.
+// Passport Club server. Single Express app for both dev and prod.
 //   Dev: Vite runs separately on :5173 and proxies /api → here on :3001.
 //   Prod: this serves the built dist/ as static + /api/* + /uploads/*.
 //
@@ -145,6 +145,6 @@ app.use((err, _req, res, _next) => {
 
 app.listen(PORT, () => {
   const mode = fs.existsSync(distDir) ? 'production (serving dist/)' : 'api-only (run vite separately)';
-  console.log(`\n  r/PassportBros · ${mode}`);
+  console.log(`\n  Passport Club · ${mode}`);
   console.log(`  → http://localhost:${PORT}\n`);
 });

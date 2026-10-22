@@ -1,4 +1,4 @@
-// Tiny fetch wrapper for the PassportBros API. Member tokens are stored
+// Tiny fetch wrapper for the Passport Club API. Member tokens are stored
 // per-group in localStorage and auto-attached to authed requests.
 
 const STORAGE_PREFIX = 'passportbros.member.';
